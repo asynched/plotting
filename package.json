@@ -8,6 +8,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@codemirror/lang-javascript": "^0.20.0",
+    "@uiw/react-codemirror": "^4.7.0",
+    "blackbox.js": "^1.0.2",
+    "codemirror": "^5.65.3",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "recharts": "^2.1.9"
