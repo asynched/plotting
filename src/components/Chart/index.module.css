@@ -1,0 +1,12 @@
+.chart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  max-height: 100vh;
+  overflow-y: auto;
+}
+
+.subtitle {
+  margin-bottom: 1rem;
+}

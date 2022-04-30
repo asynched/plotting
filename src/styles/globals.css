@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.cm-editor {
+  height: 100vh;
+  outline: none !important;
+}
+
+.cm-scroller {
+  font-family: 'JetBrains Mono', monospace !important;
+}
+
+.cm-cursorLayer {
+  animation: 1.2s ease-in-out infinite cursor-fade !important;
+}
+
+.cm-cursor {
+  border-left: 7px solid rgba(0, 0, 0, 0.5) !important;
+  border-right: 4px solid rgba(0, 0, 0, 0.5) !important;
+}
+
+@keyframes cursor-fade {
+  0% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.25;
+  }
+}
